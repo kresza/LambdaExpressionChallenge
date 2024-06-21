@@ -36,7 +36,6 @@ public class Main {
 
         System.out.println("Function for random char");
         System.out.println(getRandomChar('A','C'));
-
     }
 
     public static char getRandomChar(char startChar, char endChar){
