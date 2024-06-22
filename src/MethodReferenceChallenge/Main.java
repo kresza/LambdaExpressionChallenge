@@ -16,6 +16,7 @@ public class Main {
         String[] names = {"Tim", "Bob", "Eddy", "Allie"};
 
         Person Tim = new Person("Tim");
+
         List<UnaryOperator<String>> list = new ArrayList<>(List.of(
            String::toUpperCase,
                 s-> s += " " + getRandomCHar('D', 'M') + ".",
